@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prototype</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+      socket.on("msg1", function(data){
+        console.log(data);
+      });
+    </script>
+
+  </head>
+
+  <body>
+    first try {{{sessioninfo}}}
+  </body>
+
+</html>
